@@ -472,6 +472,7 @@ test_expect_success MINGW 'is_valid_path() on Windows' '
 		C:\\git \
 		comm \
 		conout.c \
+		com0.c \
 		lptN \
 		\
 		--not \
@@ -484,6 +485,7 @@ test_expect_success MINGW 'is_valid_path() on Windows' '
 		"AUX.c" \
 		"abc/conOut\$  .xyz/test" \
 		lpt8 \
+		com9.c \
 		"lpt*" \
 		Nul \
 		"PRN./abc"
